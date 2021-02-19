@@ -7,7 +7,7 @@ define ('DB_NAME', 'userProject');
 class Database {
     private $conn;
 
-    public function __construct {
+    public function __construct() {
             $this->db_connect();
     }
 
